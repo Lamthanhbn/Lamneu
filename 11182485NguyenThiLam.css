@@ -202,10 +202,10 @@ img {
     text-align: center;
 }
 #Backgr .nut{
-   position: relative; 
+  position: relative; 
     top: 20%;
     left: 50%;
-    transform: translateX(-50%);
+   transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,8 +213,7 @@ img {
 
 }
 #Backgr .nut button {
-    z-index: 2;
-    position: relative;
+   
     font-size: 25px;
     font-weight: bolder;
     text-transform: uppercase;
@@ -225,34 +224,16 @@ img {
     outline: none;
     border: none;
     background-color: hsl(0, 0%, 100%);
-    overflow: hidden;
-    transition: color 0.4s ease-in-out;
+  
     border-radius: 15px;
   }
   
-  #Backgr .nut button::before {
-    content: '';
-    z-index: -2;
-    position: absolute;
-    bottom: 100%;
-    right: 100%;
-    width: 1em;
-    height: 1em;
-    border-radius: 60%;
-    background-color: var(--maincolor);
-    transform-origin: center;
-    transform: translate3d(50%, 50%, 0) scale3d(0, 0, 0);
-    transition: transform 0.5s ease-in-out;
-  }
-  
 #Backgr .nut button:hover {
-    cursor: pointer;
-    color: white;
+   background: var(--maincolor);
+  
   }
   
-#Backgr .nut button:hover::before {
-    transform: translate3d(50%, 50%, 0) scale3d(30, 25, 15);
-  }
+
 #Backgr .nut button a{
     text-decoration: none;
     color: black;
