@@ -11,7 +11,7 @@ img {
     height: 100%;
 }
 :root{
-    --menucolor:rgb(116, 204, 175);
+    --menucolor:#7aacb3;
     --maincolor:#f2af29;
 }
 .d-flex{
@@ -240,7 +240,7 @@ img {
   }
 #whole{
     background: white;
-    margin: 0 200px;
+  
     position: absolute;
 }
 #Content{
